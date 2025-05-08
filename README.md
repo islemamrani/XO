@@ -8,12 +8,12 @@ This project does not use any external libraries except the standard ones.
 
 To run this program you will need a compiler (GCC, TCC.. etc)
 
-## If you're on LINUX/UNIX
-# You can simply build it using make
+# If you're on LINUX/UNIX
+## You can simply build it using make
 ```bash
 make build run
 ```
-# Or you can use your compiler
+## Or you can use your compiler
 Example: GCC
 ```bash
 gcc main.c -o main
