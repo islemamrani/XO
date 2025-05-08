@@ -339,7 +339,7 @@ void play_again(char board[BOARD_SIZE][BOARD_SIZE], bool *should_run_game, int *
                 continue;
             }
             if (strlen(input) == 1 && (input[0] == '0' || input[0] == '1')) {
-                number = input[0] - '0'; // Convert char to int
+                number = input[0] - '0';
                 break;
             } else {
                 printf("Enter a valid answer (0 or 1): ");
@@ -348,7 +348,7 @@ void play_again(char board[BOARD_SIZE][BOARD_SIZE], bool *should_run_game, int *
         }
         if (number == 1) {
             init_board(board);
-            *playable_spots = BOARD_SIZE * BOARD_SIZE; // Reset playable spots
+            *playable_spots = BOARD_SIZE * BOARD_SIZE;
             *should_run_game = true;
         } else {
             *should_run_game = false;
