@@ -1,5 +1,5 @@
 ## ❌⭕️
-# A simple TUI Tic Tac Toe game in pure C with implemented computer logic.
+# An unbeatable simple TUI Tic Tac Toe game in pure C with implemented computer logic.
 This project is under the MIT license.
 This project does not use any external libraries except the standard ones.
 
